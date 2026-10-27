@@ -1,2 +1,4 @@
-export const dynamic = 'force-dynamic';
-export default function Page() { return <p>{new Date().toISOString()}</p>; }
+/** Add your relevant code here for the issue to reproduce */
+export default function Home() {
+  return null;
+}

@@ -1,22 +1,21 @@
 {
-  "name": "nextjs-91655-not-fixed-for-standalone",
   "private": true,
-  "license": "MIT",
   "scripts": {
-    "build": "next build"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "@opentelemetry/api": "1.10.0",
     "@opentelemetry/instrumentation-http": "0.300.0",
     "@opentelemetry/sdk-node": "0.300.0",
-    "@opentelemetry/sdk-trace-base": "2.12.0",
-    "next": "16.4.3",
-    "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "next": "canary",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
-    "@types/node": "26.6.5",
-    "@types/react": "19.3.0",
-    "typescript": "5.9.3"
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "typescript": "^5"
   }
 }
